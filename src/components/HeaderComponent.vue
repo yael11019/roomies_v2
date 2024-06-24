@@ -5,7 +5,7 @@
         :src="require('@/assets/punkd.jpeg')"
         alt="HeaderImage"
       />
-      <h1>Punkd</h1>
+      <h1><strong>Roomie Match</strong></h1>
       <img
         @click="openMenu"
         :src="require('@/assets/menu.png')"
@@ -43,6 +43,7 @@ const goToHome = () => {
     justify-content: space-around;
     align-items: center;
     background-color: #02416d
+
   }
   img,
   span {
